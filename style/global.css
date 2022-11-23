@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    max-width: 1000px;
+    padding: 0;
+    margin: 0 auto !important;
+}
+
+/* FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,900;1,400&display=swap');
+h1,h2,h3,h4,h5,h6,a,p,span,strong{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* CORES */
+
+:root{
+    --corPrincipal: #13b3a9;
+    --corAreia: #fff2ed;
+}

@@ -1,0 +1,31 @@
+#sobre{
+    margin-top: 180px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sobreLeft img{
+    width: 400px;
+}
+
+.sobreRigth{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 500px;
+}
+
+.sobreRigth div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.sobreRigth p{
+    margin-top: 5px;
+}
+
