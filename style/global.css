@@ -8,7 +8,7 @@ html, body {
     height: 100%;
 }
 
-body {
+body section, main, nav {
     max-width: 1000px;
     padding: 0;
     margin: 0 auto !important;

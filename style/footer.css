@@ -1,0 +1,7 @@
+footer{
+    background: var(--corPrincipal);
+    margin-top: 240px;
+    
+    display: flex;
+    
+}

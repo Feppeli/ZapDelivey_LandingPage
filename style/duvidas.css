@@ -1,0 +1,50 @@
+#duvidas {
+  margin-top: 180px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 180px;
+}
+
+.duvidastxt {
+  text-align: center;
+
+}
+.duvidastxt h1{
+    font-size: 30px;
+}
+
+.cards{
+    margin-top: 90px;
+
+    width: 700px;
+
+    border: 1px solid var(--corPrincipal);
+    border-radius: 10px;
+}
+
+details{
+    padding: 10px 20px;
+    border-bottom: 1px solid var(--corPrincipal);
+    color: #000;
+    outline: 0;
+}
+
+summary{
+    outline: 0;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+details p{
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: var(--corPrincipal);
+}
+
