@@ -47,5 +47,11 @@ details p{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: var(--corPrincipal);
+}@media(max-width:802px){
+    #duvidas{
+        max-width: 650px;
+    }
+    details{
+        max-width: 650px;
+    }
 }
-

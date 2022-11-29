@@ -38,3 +38,20 @@ main{
     margin-top: 60px;
 }
 
+@media(max-width:820px){
+    main{
+        max-width: 650px;
+    }
+    main h1{
+        font-size: 32px;
+    }
+    .leftSide{
+        width: 300px;
+    }
+    .rigthSide img{
+        width: 300px;
+    }
+    .comecarAgora{
+        width: 60%;
+    }
+}

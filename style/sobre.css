@@ -36,3 +36,14 @@
     opacity: 70%;
 }
 
+@media(max-width:820px){
+    #sobre{
+        align-items: center;
+    }
+    #sobre{
+        max-width: 650px;
+    }
+    .sobreLeft img{
+        width: 300px;
+    }
+}
