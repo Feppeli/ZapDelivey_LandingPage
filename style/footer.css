@@ -1,7 +1,29 @@
 footer{
     background: var(--corPrincipal);
-    margin-top: 240px;
+    margin-top: 440px;
     
     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 500px;
+
     
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.social i{
+    color: #fff;
+}
+footer p{
+    color: #fff;
+}
+footer h1{
+    color: #fff;
 }

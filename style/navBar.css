@@ -33,8 +33,6 @@ nav{
 }
 
 .Acessar:hover{
-    color: #000;
-    background: #fff;
     box-shadow: 0 0 20px var(--corPrincipal);
 }
 

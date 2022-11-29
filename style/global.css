@@ -8,6 +8,10 @@ html, body {
     height: 100%;
 }
 
+body h1{
+    color: var(--corPrincipal);
+}
+
 body section, main, nav {
     max-width: 1000px;
     padding: 0;
@@ -23,6 +27,6 @@ h1,h2,h3,h4,h5,h6,a,p,span,strong{
 /* CORES */
 
 :root{
-    --corPrincipal: #13b3a9;
+    --corPrincipal: #0d940a;
     --corAreia: #fff2ed;
 }

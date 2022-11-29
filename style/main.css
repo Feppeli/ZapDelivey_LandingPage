@@ -3,7 +3,6 @@ main{
     flex-direction: row;
     justify-content: space-between;
 
-    margin-top: 60px;
 }
 
 .leftSide{
@@ -12,9 +11,11 @@ main{
     width: 500px;
     justify-content: space-around;
     font-size: 20px;
+    
 }
 .leftSide h1{
     font-weight: 900;
+    margin-top: 60px;
 }
 
 .comecarAgora{
@@ -28,13 +29,12 @@ main{
     border-radius: 5px;
 }
 .comecarAgora:hover{
-    color: #000;
-    background: #fff;
     box-shadow: 0 0 20px var(--corPrincipal);
     transition: .8s;
 }
 
 .rigthSide img{
     width: 400px;
+    margin-top: 60px;
 }
 
