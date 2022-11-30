@@ -27,7 +27,11 @@ footer p{
 footer h1{
     color: #fff;
 }
-
+@media(min-width:800px){
+    footer{
+        margin-top: 850px;
+    }
+}
 @media(max-width:500px){
     footer{
         margin-top: 850px;
