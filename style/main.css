@@ -66,4 +66,7 @@ main{
         display: flex;
         justify-content: space-between;
     }
+    main p{
+        margin-left: 0;
+    }
 }
