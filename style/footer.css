@@ -32,8 +32,22 @@ footer h1{
     footer{
         margin-top: 850px;
     }
-    footer h1, .social,p {
+    footer h1{
         margin-left: 50px;
         margin-right: 50px;
+
+        text-align: center;
+    }
+    footer  .social{
+        margin-left: 50px;
+        margin-right: 50px;
+
+        text-align: center;
+    }
+    footer p{
+        margin-left: 50px;
+        margin-right: 50px;
+
+        text-align: center;
     }
 }
