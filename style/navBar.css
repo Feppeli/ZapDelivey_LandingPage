@@ -45,3 +45,9 @@ nav{
         justify-content: space-around;
     }
 }
+
+@media(max-width: 500px){
+    .NavLink{
+        display: none;
+    }
+}

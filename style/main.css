@@ -55,3 +55,15 @@ main{
         width: 60%;
     }
 }
+
+@media(max-width:500px){
+    main{
+        flex-direction: column;
+        max-width: 300px;
+    }
+    .leftSide{
+        height: 350px;
+        display: flex;
+        justify-content: space-between;
+    }
+}

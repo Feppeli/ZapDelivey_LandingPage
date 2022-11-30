@@ -47,3 +47,12 @@
         width: 300px;
     }
 }
+
+@media(max-width:500px){
+    #sobre{
+        flex-direction: column-reverse;
+    }
+    .sobreRigth{
+        max-width: 300px;
+    }
+}

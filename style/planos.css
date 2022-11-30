@@ -73,3 +73,9 @@
     max-width: 650px;
   }
 }
+@media(max-width:500px){
+  .planos{
+    flex-direction: column;
+    align-items: center;
+  }
+}
