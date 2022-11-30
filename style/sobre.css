@@ -53,6 +53,17 @@
         flex-direction: column-reverse;
     }
     .sobreRigth{
-        max-width: 300px;
+        max-width: 350px;
+        margin-left:50px ;
+        margin-right: 50px;
+    }
+    .sobreRigth p{
+        margin-left: 0;
+        margin-bottom: 25px;
+        margin-right: 0;
+        font-weight: 700;
+    }
+    .sobreRigth h4{
+        margin-top: 0px;
     }
 }
