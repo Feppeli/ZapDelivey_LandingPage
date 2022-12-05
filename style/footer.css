@@ -1,6 +1,6 @@
 footer{
     background: var(--corPrincipal);
-    margin-top: 440px;
+
     
     display: flex;
     flex-direction: column;
@@ -29,7 +29,7 @@ footer h1{
 }
 @media(min-width:800px){
     footer{
-        margin-top: 850px;
+        margin-top: 650px;
     }
 }
 @media(max-width:500px){
