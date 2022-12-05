@@ -10,8 +10,8 @@
     color: var(--corPrincipal);
 }
 
-.sobreLeft img{
-    width: 500px;
+.sobreLeft video{
+    width: 400px;
     margin-top: 100px;
 }
 
@@ -52,6 +52,9 @@
     #sobre{
         flex-direction: column-reverse;
 
+    }
+    .sobreLeft video{
+        width: 300px;
     }
     .sobreRigth{
         max-width: 350px;

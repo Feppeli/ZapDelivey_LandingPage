@@ -11,7 +11,8 @@ main{
     width: 500px;
     justify-content: space-around;
     font-size: 20px;
-    
+    max-height: 400px;
+
 }
 .leftSide h1{
     font-weight: 900;
@@ -33,9 +34,10 @@ main{
     transition: .8s;
 }
 
-.rigthSide img{
-    width: 400px;
-    margin-top: 60px;
+.rigthSide video{
+    
+    height: 500px;
+
 }
 
 @media(max-width:820px){
@@ -48,8 +50,10 @@ main{
     .leftSide{
         width: 300px;
     }
-    .rigthSide img{
+    .rigthSide video{
+        margin-top: 60px;
         width: 300px;
+        height: auto;
     }
     .comecarAgora{
         width: 60%;
